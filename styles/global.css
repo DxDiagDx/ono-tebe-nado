@@ -32,3 +32,13 @@ a {
 img {
   width: 100%;
 }
+
+address {
+  font-style: normal;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+}
