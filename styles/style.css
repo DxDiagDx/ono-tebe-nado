@@ -32,12 +32,12 @@ body {
 }
 
 .header__logo {
+    width: 137px;
     justify-self: center;
 }
 
 .header__logo-image a {
     display: block;
-    width: 137px;
 }
 
 .header__address {
