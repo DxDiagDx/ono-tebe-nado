@@ -16,29 +16,25 @@
       <nav class="header__menu">
         <ul class="header__links-list">
           <li class="header__links-list-item header__links-list-item_no-bullit">
-            <a href="#" class="link-style header__link_active">Главная</a>
+            <a href="#" class="link-style header__link header__link_active">Главная</a>
           </li>
           <li class="header__links-list-item">
-            <a href="#" class="link-style">Посмотреть лоты</a>
+            <a href="#" class="link-style header__link">Посмотреть лоты</a>
           </li>
           <li class="header__links-list-item">
-            <a href="#" class="link-style">Об аукционе</a>
+            <a href="#" class="link-style header__link">Об аукционе</a>
           </li>
         </ul>
       </nav>
 
-      <div class="header__logo">
-        <div class="header__logo-image">
-          <a href="#">
-            <img src="images/logo-black.svg" alt="Оно тебе надо">
-          </a>
-        </div>
-      </div>
+      <a href="#" class="header__logo" >
+        <img class="header__logo-image" src="images/logo-black.svg" alt="Оно тебе надо">
+      </a>
 
       <address class="address header__address">
         <a href="tel:+99995555555" class="link-style">+9 999 555 5555</a><br>
         <a href="mailto:info@sobaka.ge" class="link-style">info@sobaka.ge</a><br>
-        наб. Принсенграхт 263-265, <br>Амстердам
+        <p>наб. Принсенграхт 263-265, <br>Амстердам</p>
       </address>
 
     </header>
@@ -51,10 +47,10 @@
           <span class="aligned-text">
             О<span class="letter-spacing-extended">но</span>
           </span>
-          <span class="aligned-text_center">
+          <span class="aligned-text aligned-text_center">
             те<span class="letter-spacing-extended">бе</span>
           </span>
-          <span class="aligned-text_right">
+          <span class="aligned-text aligned-text_right">
             <span class="letter-spacing-extended">н</span>ад<span class="no-letter-spacing">о</span>
           </span>
         </h1>
@@ -72,7 +68,9 @@
               <article class="card card_type_film">
                 <div class="overlay"></div>
                 <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
-                <p class="card__text">Не&nbsp;просто бросил, а&nbsp;ушёл с&nbsp;первой лекции. Какой была&nbsp;бы ваша ставка, если&nbsp;бы вы&nbsp;не&nbsp;знали, что режиссёр&nbsp;&mdash; Пол Томас Андерсон?</p>
+                <div class="card__text">
+                  <p>Не&nbsp;просто бросил, а&nbsp;ушёл с&nbsp;первой лекции. Какой была&nbsp;бы ваша ставка, если&nbsp;бы вы&nbsp;не&nbsp;знали, что режиссёр&nbsp;&mdash; Пол Томас Андерсон?</p>
+                </div>
               </article>
             </a>
           </li>
@@ -81,7 +79,9 @@
               <article class="card card_type_book">
                 <div class="overlay"></div>
                 <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
-                <p class="card__text">Объёмом почти в&nbsp;тысячу страниц. Иногда без знаков препинания и&nbsp;с&nbsp;переходами на&nbsp;древнеанглийский. В&nbsp;ней одновременно рассказывается о&nbsp;16&nbsp;июня 1904 года и&nbsp;об&nbsp;истории литературы, начиная с&nbsp;античных времён. И&nbsp;это всё накладывается на&nbsp;эпическую поэму Гомера. Сколько&nbsp;бы вы&nbsp;поставили на&nbsp;&laquo;Улисса&raquo; Джеймса Джойса?</p>
+                <div class="card__text">
+                  <p>Объёмом почти в&nbsp;тысячу страниц. Иногда без знаков препинания и&nbsp;с&nbsp;переходами на&nbsp;древнеанглийский. В&nbsp;ней одновременно рассказывается о&nbsp;16&nbsp;июня 1904 года и&nbsp;об&nbsp;истории литературы, начиная с&nbsp;античных времён. И&nbsp;это всё накладывается на&nbsp;эпическую поэму Гомера. Сколько&nbsp;бы вы&nbsp;поставили на&nbsp;&laquo;Улисса&raquo; Джеймса Джойса?</p>
+                </div>
               </article>
             </a>
           </li>
@@ -90,7 +90,9 @@
               <article class="card card_type_picture">
                 <div class="overlay"></div>
                 <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
-                <p class="card__text">Ну&nbsp;действительно, там линия, тут кружочек, а&nbsp;здесь и&nbsp;вовсе что-то похожее на&nbsp;инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько&nbsp;бы вы&nbsp;на&nbsp;такое поставили, если&nbsp;бы не&nbsp;знали, что это&nbsp;&mdash; одна из&nbsp;революционных работ Кандинского?</p>
+                <div class="card__text">
+                  <p>Ну&nbsp;действительно, там линия, тут кружочек, а&nbsp;здесь и&nbsp;вовсе что-то похожее на&nbsp;инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько&nbsp;бы вы&nbsp;на&nbsp;такое поставили, если&nbsp;бы не&nbsp;знали, что это&nbsp;&mdash; одна из&nbsp;революционных работ Кандинского?</p>
+                </div>
               </article>
             </a>
           </li>
@@ -101,9 +103,7 @@
       <section class="about">
         <div class="about__column">
           <div class="about__logo">
-            <div class="about__logo-image">
-              <img src="images/logo-white.svg" alt="Оно тебе надо">
-            </div>
+            <img class="about__logo-image"src="images/logo-white.svg" alt="Оно тебе надо">
           </div>
         </div>
         <div class="about__column">
@@ -121,42 +121,35 @@
       <address class="footer__address address">
         <a href="tel:+99995555555" class="link-style">+9 999 555 5555</a><br>
         <a href="mailto:info@sobaka.ge" class="link-style">info@sobaka.ge</a><br>
-        наб. Принсенграхт 263-265,<br>
-        Амстердам
+        <p>наб. Принсенграхт 263-265, <br>Амстердам</p>
       </address>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li>
-            <a href="#" class="link-style footer__menu-link_active">Главная</a>
+            <a href="#" class="link-style footer__menu-link footer__menu-link_active">Главная</a>
           </li>
           <li>
-            <a href="#" class="link-style">Посмотреть лоты</a>
+            <a href="#" class="link-style footer__menu-link">Посмотреть лоты</a>
           </li>
           <li>
-            <a href="#" class="link-style">Об аукционе</a>
+            <a href="#" class="link-style footer__menu-link">Об аукционе</a>
           </li>
         </ul>
       </nav>
-      <ul class="footer__social-list">
+      <ul class="footer__social-list">        
         <li>
           <a href="#">
-            <div class="footer__social-icon">
-              <img src="images/yt.svg" alt="ютьюб">
-            </div>
+            <img class="footer__social-icon" src="images/yt.svg" alt="ютьюб">
           </a>
         </li>
         <li>
           <a href="#">
-            <div class="footer__social-icon">
-              <img src="images/vk.svg" alt="вконтакте">
-            </div>
+            <img class="footer__social-icon" src="images/vk.svg" alt="вконтакте">
           </a>
         </li>
         <li>
           <a href="#">
-            <div class="footer__social-icon">
-              <img src="images/pinterest.svg" alt="пинтерест">
-            </div>
+            <img class="footer__social-icon" src="images/pinterest.svg" alt="пинтерест">
           </a>
         </li>
       </ul>
